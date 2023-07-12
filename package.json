@@ -1,0 +1,16 @@
+{
+  "name": "tcp2",
+  "version": "1.0.0",
+  "description": "Addition to net tcp socket with auto reconnecting",
+  "main": "build/Socket.js",
+  "license": "MIT",
+  "scripts": {
+    "test:connect": "ts-node-dev ./tests/connect",
+    "test:receive": "ts-node-dev ./tests/receive"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
