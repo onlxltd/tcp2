@@ -2,7 +2,8 @@
   "name": "tcp2",
   "version": "1.0.0",
   "description": "Addition to net tcp socket with auto reconnecting",
-  "main": "build/Socket.js",
+  "main": "./build/Socket.js",
+  "types": "./build/Socket.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -13,5 +14,24 @@
     "@types/node": "^16",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlxltd/tcp2.git"
+  },
+  "keywords": [
+    "tcp",
+    "net",
+    "auto",
+    "reconnect",
+    "request"
+  ],
+  "author": "ON LX Limited",
+  "bugs": {
+    "url": "https://github.com/onlxltd/tcp2/issues"
+  },
+  "homepage": "https://github.com/onlxltd/tcp2#readme"
 }
