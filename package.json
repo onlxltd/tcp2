@@ -5,6 +5,7 @@
   "main": "build/Socket.js",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test:connect": "ts-node-dev ./tests/connect",
     "test:receive": "ts-node-dev ./tests/receive"
   },
